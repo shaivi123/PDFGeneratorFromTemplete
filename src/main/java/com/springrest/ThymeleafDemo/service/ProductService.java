@@ -24,7 +24,6 @@ public class ProductService {
         product.setDescription(description);
         product.setPrice(price);
         product.setQuantity(quantity);
-//        product.setId(id);
         return productRepository.save(product);
     }
 
